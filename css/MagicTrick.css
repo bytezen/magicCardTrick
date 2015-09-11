@@ -1,0 +1,75 @@
+body {
+  background: #ABC;
+}
+
+
+div#board {
+  background: #ABC;
+  height: 75%;
+}
+
+div#HUD {
+  clear: both ;
+  height: 25%;
+  background: #FFF;
+  font-size: 2em;
+}
+
+
+section.column {
+  float: left;
+  margin: 0 10px;
+  min-height: 100%;
+  width: 30%;
+}
+
+
+section.card:last-child {
+  border-style: inset;
+  height: 13em;
+  border-radius: 10px;
+}
+
+section.card:first-child {
+  margin: 0px 3px;
+}
+
+section.card {
+  width: 90%;
+  height: 3em;
+  background: #FFF;
+  margin: -10px 3px;
+  padding: 3px 0 0 3px;
+  border-style: inset inset none inset;
+  border-width: 2px;
+  border-color: #F00;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+section.card > span.hearts, section.card > span.diamonds {
+    color: #F00;
+}
+
+section.card > span.spades, section.card > span.clubs {
+    color: #000;
+}
+
+section.instruction {
+  background: #F00;
+  font-size: 1em;
+}
+
+
+button {
+  font-size: 1em;
+  width: 150px;
+  height: 50px;
+}
+
+input#numberChoice {
+  width: 100px;
+  height: 75px;
+  font-size: 1em;
+}
